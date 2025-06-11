@@ -1,0 +1,34 @@
+soo some of file are existing in comupter from start in local comupter
+
+if you want those folder to connect with git you can use
+git init
+
+now 2nd step is nameing origin
+git remote add orgin <link>
+you can check remote using git remote -v
+
+
+
+to check branch
+git branch
+to give new name 
+git branch -m branchname
+to create new branch
+git checkout -b <new branch name>
+to go from one to another branch
+git checkout <branch name>
+to delete branch
+git checkout -d <branch name>
+to push it to github
+git push origin branchname
+
+to compare both branch
+git diff branchnametocompaare
+
+to merge 2 branch
+git merge branchname
+u can do it directly from git hub too
+that remote changes to display on local 
+git pull origin main
+
+to recover
